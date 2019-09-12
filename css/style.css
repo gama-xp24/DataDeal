@@ -194,3 +194,93 @@ input[type=text] {
 .socialMedia{
     text-align: right;
 }
+
+/* divisão de estilo da tela 1 */
+
+#flex{
+    display: flex;
+    flex-direction: row;
+}
+
+#flex2{
+    display: flex;
+    flex-direction: column;
+}
+
+.telaAzul {
+    top: 0px;
+    left: 0px;
+    width: 800px;
+    height: 960px;
+}
+
+.formulario {
+    top: 0px;
+    left: 800px;
+    width: 800px;
+    height: 960px;
+    /* border: 5px solid black; */
+    text-align: center;
+}
+
+.formulario h2{
+    margin-top: 236px;
+}
+
+.formulario p{
+    margin-top: 236px;
+    margin-left: 283px;
+    margin-right: 307px;
+}
+
+
+.login input[type=text]{
+    width: 400px;
+    height: 30px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.botao input[type=submit]{
+    width: 185px;
+    height: 50px;
+    border: 1px solid #43425D;
+    border-radius: 4px;
+    text-align: center;
+    font: Regular 18px/23px Source Sans Pro;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.botao {
+    padding:20px;
+}
+
+#entrar{
+    background-color: #43425D;
+}
+
+#cadastro{
+    background-color: white;
+    color: #4D4F5C;
+
+}
+
+.login{
+    margin: 0 200px;
+    padding-top: 30px;
+}
+
+.quadrado{
+    border: 1px solid gray;
+    width: 18px;
+    height: 18px;
+}
+
+.container-texto span{
+    padding: 40px;
+}
+
