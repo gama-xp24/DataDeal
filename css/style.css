@@ -44,6 +44,16 @@ font-family: 'Source Sans Pro', sans-serif;
     color: #f1f1f1;
 }
 
+/* .menu{
+    width: 277px;
+    height: 38px;
+    border: 1px solid black;
+}
+
+#foto2 {
+    padding: 10px;
+} */
+
 .main {
     margin-left: 265px; /* Same as the width of the sidenav */
     font-size: 25px; /* Increased text to enable scrolling */
@@ -283,4 +293,17 @@ input[type=text] {
 .container-texto span{
     padding: 40px;
 }
+
+
+/* imagens da sidebar */
+
+#borda:hover{
+    border-left: 2px solid blue;
+    background-color: rgb(38, 38, 59);
+}
+
+#foto{
+    padding-right: 10px;
+}
+
 
