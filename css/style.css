@@ -50,6 +50,61 @@ font-family: 'Source Sans Pro', sans-serif;
     padding: 0px 10px;
 }
 
+.main form {
+    margin-left: 29px; /* Same as the width of the sidenav */
+    height: 70px;
+    width: 300px;
+    font-size: 25px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    text-align: left;
+    font: Regular 25px/20px Source Sans Pro;
+    letter-spacing: 0;
+    color: #BCBCCB;
+    opacity: 1;
+}
+
+input[type=submit] {
+    width: 301px;
+    height: 70px;
+    color: #BCBCCB;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #858FA1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #0000000A;
+    opacity: 1;
+    font: Regular 25px/20px Source Sans Pro;
+}
+
+input[type=submit]:hover {
+    background-color: #43425D;
+}
+
+input[type=text] {
+    width: 301px;
+    height: 70px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    font: Regular 25px/20px Source Sans Pro;
+}
+
+.list {
+    width: 301px;
+    height: 70px;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    font: Regular 25px/20px Source Sans Pro;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -101,12 +156,6 @@ font-family: 'Source Sans Pro', sans-serif;
     text-align: justify;
     padding-left: 70px;
     padding-top: 30px;
-}
-
-.container1 {
-    border: 1px solid black;
-    text-align: right;
-    margin: 15px;
 }
 
 .texto2{
