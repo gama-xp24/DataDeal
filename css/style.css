@@ -21,7 +21,12 @@ font-family: 'Source Sans Pro', sans-serif;
     padding-top: 20px;
 }
 
+.sidenav #logo {
+    left: 20px;
+}
+
 .sidenav p {
+    padding-left: 20px;
     top: 42px;
     left: 20px;
     height: 19px;
@@ -313,4 +318,22 @@ input[type=text] {
     padding-right: 10px;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#table_pessoas {
+    vertical-align: top;
+    border-collapse: collapse;
+}

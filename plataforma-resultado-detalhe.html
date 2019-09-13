@@ -39,8 +39,8 @@
         
         <section class="container">
             <div>
-            <form action="./plataforma-resultado.html">
-            <input class="list" list="cnae" name="cnae" placeholder="CNAE do cliente">
+            <form action="./plataforma-detalhe.html">
+            <input class="list" list="cnae" name="cnae" placeholder="CNAE do cliente" value="620 - Atividades dos serviços de tecnologia da informação">
             <datalist id="cnae">
                     <option value="620 - Atividades dos serviços de tecnologia da informação">
                     <option value="2621 - Fabricação de equipamentos de informática">
@@ -48,7 +48,7 @@
             </datalist>
             </div>
             <div>
-            <input type="text" id="cep" name="cep" placeholder="Seu CEP">
+            <input type="text" id="cep" name="cep" placeholder="Seu CEP" value="01443-900">
             </div>
             <div>
             <input type="submit" value="Buscar">
@@ -56,6 +56,15 @@
             </div>
         </section>
         
+        <section class="container">
+                <table id="table_pessoas">
+                    <tr>
+                        <td id="table_pessoas"><img src="./imagens/pessoas.PNG" alt="Pessoas de interesse"></td>
+                        <td><img src="./imagens/google_places.PNG" alt="API Google PLaces"></td>
+                    </tr>
+                </table>
+            </section>
+
     </div><!--main-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
